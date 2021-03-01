@@ -15,7 +15,7 @@ const useStyles = makeStyles({
 
 const renderSelectField : React.FC<FormikSelectProps> = ({
   name, items, value,
-  label, required, onChange, onBlur,
+  label, required, onChange,
 }) => {
   const classes = useStyles()
   return (
@@ -25,6 +25,7 @@ const renderSelectField : React.FC<FormikSelectProps> = ({
         options={items}
         getOptionLabel={(option: OptionLabel) => option.value}
         fullWidth
+        onChange={onChange}
         renderInput={(params: TextFieldProps) => (
           <TextField
             {...params}
