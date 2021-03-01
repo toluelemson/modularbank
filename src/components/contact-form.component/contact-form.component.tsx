@@ -74,7 +74,7 @@ const ContactForm: React.FC = () => {
         }}
       >
         {({
-          isSubmitting, dirty, isValid, status,
+          isSubmitting, dirty, status,
         }) => (
           <>
 
@@ -150,7 +150,7 @@ const ContactForm: React.FC = () => {
                 </Grid>
 
                 <Grid item xs={12}>
-                  <Button disabled={isSubmitting || !dirty || isValid} variant="contained" color="secondary" type="submit">{isSubmitting ? 'Submitting' : 'Submit'}</Button>
+                  <Button disabled={(isSubmitting || !dirty)} variant="contained" color="secondary" type="submit">{isSubmitting ? 'Submitting' : 'Submit'}</Button>
                 </Grid>
               </Grid>
 
