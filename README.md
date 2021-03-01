@@ -1,29 +1,13 @@
 # modularbank
 
-<h1 align="center">Welcome to  👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/toluelemson/modularbank/blob/main/README.md" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="#" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
-  </a>
-  <a href="https://twitter.com/to" target="_blank">
-    <img alt="Twitter: to" src="https://img.shields.io/twitter/follow/to.svg?style=social" />
-  </a>
-</p>
+> A React application that opens a dummy contact form
 
-> a React application that opens a dummy contact formrm
-
-### ✨ [Demo](https://toluelemson.github.io/modularbank/)
-
-## Techonlogies
-* Parcel: elemson.comom
+## Technologies
+* Parcel
 * React
 * Typescript
 * Formik
-* yup validation
+* yup validator
 * Material UI
 * Eslint
 
@@ -39,6 +23,22 @@ npm install
 npm run start
 ```
 
+## Build
+
+```sh
+npm run build
+```
+
+## Run Build Static
+
+```sh
+cd dist
+```
+
+```sh
+npx serve
+```
+
 ## Linting
 
 ```sh
@@ -47,15 +47,8 @@ npm run lint
 
 ## Author
 
-👤 **Toluwanani**
+👤 **Toluwani**
 
-* Website: elemson.comom
-* Twitter: [@tolulemson](https://twitter.com/toluelemson)
-* Github: [@toluelemsonon](https://github.com/toluelemsonon)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+* Website: elemson.com
+* Twitter: [@toluelemson](https://twitter.com/toluelemson)
+* Github: [@toluelemson](https://github.com/toluelemson)
