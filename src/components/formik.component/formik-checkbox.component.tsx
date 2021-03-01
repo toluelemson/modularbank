@@ -39,11 +39,12 @@ const renderCheckbox : React.FC<FormikTextFieldProps> = ({
   )
 }
 
-const FormikCheckbox: React.FC<FormikCheckboxProps> = ({ name, label }) => (
+const FormikCheckbox: React.FC<FormikCheckboxProps> = ({ name, label, required=false) => (
   <div>
     <Field
       name={name}
       as={renderCheckbox}
+      required={required}
       label={label}
       errorString={<ErrorMessage name={name} />}
     />
